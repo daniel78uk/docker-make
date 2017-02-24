@@ -1,0 +1,7 @@
+FROM docker:1.11
+
+ADD VERSION ./VERSION
+
+ENV BUILD_PACKAGES="make"
+
+RUN apk --no-cache add $BUILD_PACKAGES
