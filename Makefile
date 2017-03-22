@@ -1,4 +1,4 @@
-SERVICE_NAME=docker-inception
+SERVICE_NAME=docker-make
 VERSION=$(shell git rev-parse --short HEAD)
 
 all: build
